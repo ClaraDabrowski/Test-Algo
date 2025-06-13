@@ -2,7 +2,7 @@ const prompt = require("prompt-sync")()
 
 let choicePlayer = ""
 
-console.log("De retour de votre dernière aventure, sur le chemin qui vous mène à votre village,votre équipe vous égarez au détour d'un embranchement! Vous décidez de       continuer pour voir où cela vous mènera! Derrière un arbre, vous tombez sur une entrée recouverte de ronce, visiblement celle d'un donjon ! Que souhaitez    -vous faire")
+console.log("De retour de votre dernière aventure, sur le chemin qui vous mène à votre village,votre équipe et vous, vous égarez au détour d'un embranchement! Vous décidez de continuer pour voir où cela vous mènera! Derrière un arbre, vous tombez sur une entrée recouverte de ronce, visiblement celle d'un donjon ! Que souhaitez-vous faire")
 
 choicePlayer = prompt("Vous decidez d'aller découvrir le donjon(a) ou vous préferez continuer votre chemin (b)?")
 while (choicePlayer != "a" && choicePlayer != "b") {
