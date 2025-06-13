@@ -65,10 +65,14 @@ for (let i = 0; i < tabQuestions.length; i++) {
       
     }
     choice = prompt ("Fais ton choix :")
+    while (choice != "1" && choice != "2" && choice != "3") {
+           choice = prompt ("Veuillez sélectionner parmis les 3 options : ")
+    }
     if (choice == tabQuestions[i].goodAnswer) {
         score++
         
         console.log("Gagné ," + tabQuestions[i].comment);
+
 
         
     }else{
